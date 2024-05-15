@@ -1,0 +1,519 @@
+ /* navigation bar start */
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container{
+    padding: 0px 90px;
+ }
+
+ .navigation {
+     background-color: rgb(38, 71, 136);
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 90px;
+ }
+
+ .navbar a {
+     color: white;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .media {
+     display: flex;
+     gap: 20px;
+ }
+
+ .contacts a {
+     margin: 2px;
+ }
+
+ .platform a {
+     margin: 20px;
+     font-size: 20px;
+ }
+
+ .platform a:hover{
+    color: #84c3e7a6;
+ }
+
+ .studentportal a {
+     padding: 7px 35px;
+     font-weight: bold;
+     border-radius: 25px;
+     border: 2px solid white
+ }
+
+ .studentportal a:hover{
+    background-color: whitesmoke;
+    color: #264788;
+ }
+
+ /* navigation bar end */
+
+
+
+ /* search bar section start */
+ .search {
+     background-color: #F8F9FA;
+ }
+
+ .searchbar {
+     margin: 0px;
+     padding: 10px 80px;
+     display: flex;
+     align-items: center;
+ }
+
+ .logoarea p {
+     text-align: center;
+     font-size: small;
+     font-family: sans-serif;
+ }
+
+ .bar input {
+     margin: 17px;
+     height: 40px;
+     width: 750px;
+     border: 1px solid;
+     border-radius: 12px;
+     outline: none;
+     padding-left: 15px;
+     font-size: 17px;
+     font-weight: lighter;
+ }
+
+ .GetAdmission a {
+     padding: 10px 37px;
+     color: white;
+     font-weight: bold;
+     font-family: sans-serif;
+     border-radius: 20px;
+     background-color: #dd4b2a;
+     text-decoration: none;
+ }
+
+ .GetAdmission a:hover
+ {
+    background-color: #b94126;
+ }
+ /* search bar section end */
+
+
+
+ /* hero section start */
+ .HEROSECTION {
+     background-color: #E7ECF3;
+ }
+
+ .herosection {
+     display: flex;
+     padding: 40px 130px;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .via {
+     display: flex;
+     align-items: center;
+     padding: 10px 0px;
+ }
+
+ .via2 {
+     margin: 10px;
+ }
+
+ .p1 {
+     padding: 20px 0px;
+ }
+
+ .p1 h1 {
+     padding: 10px 0px;
+     color: #264788;
+     font-size: 46px;
+     font-family: sans-serif;
+ }
+
+ .p1 p {
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .p2 h2 {
+     padding: 10px 0px;
+     color: #444444;
+     font-size: 35px;
+     font-family: sans-serif;
+ }
+
+ .p2 p {
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .via1 a {
+     padding: 8px 11px;
+     font-size: 17px;
+     text-decoration: none;
+     font-family: sans-serif;
+     color: white;
+     background-color: #51A985;
+     border-radius: 9px;
+ }
+
+ .via2 a {
+     padding: 8px 11px;
+     font-size: 17px;
+     text-decoration: none;
+     font-family: sans-serif;
+     color: white;
+     background-color: #264788;
+     border-radius: 9px;
+ }
+
+ /* hero section end */
+
+
+
+ /* page 1 section start */
+ .partners {
+     background-color: white;
+ }
+
+ .mark {
+     display: flex;
+ }
+
+ .mark img {
+     margin-right: 100px;
+     border-radius: 20px;
+ }
+
+ .placement {
+     padding: 50px;
+     text-align: center;
+     align-items: center;
+ }
+
+ .placement h1 {
+     font-size: 35px;
+     font-family: sans-serif;
+ }
+
+ .placement p {
+     padding: 20px;
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* page 1 section end */
+
+
+
+ /* page 2 section start */
+ .WHY {
+     background-color: #F8F9FA;
+     align-items: center;
+     text-align: center;
+ }
+
+ .whycodeit {
+     display: flex;
+ }
+
+ .whycodeit iframe {
+     padding: 30px;
+     padding-left: 80px;
+ }
+
+
+ .why {
+     padding: 40px;
+ }
+
+ .why1 {
+     padding: 20px;
+ }
+
+ .why1 h1 {
+     padding: 10px 0px;
+     font-size: 30px;
+     font-family: sans-serif;
+ }
+
+ .why1 p {
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .why2 {
+     padding: 20px;
+ }
+
+ .why2 h3 {
+     font-size: 25px;
+     font-family: sans-serif;
+ }
+
+ .why2 p {
+     padding: 17px 0px;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .learnMore a {
+     padding: 16px 60px;
+     color: white;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     background-color: #223D75;
+     border-radius: 20px;
+ }
+
+ .learnMore a:hover{
+background-color: #182b52;
+ }
+
+ /* page 2 section end */
+
+
+
+ /* page 3 section start */
+
+ .CARD {
+     padding: 40px;
+ }
+
+ .upclass h1 {
+     padding: 40px;
+     font-size: 35px;
+     font-family: sans-serif;
+     text-align: center;
+ }
+
+ .maincard {
+     margin: 20px;
+     padding: 0px;
+     border-radius: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .card {
+     height: 435px;
+     width: 365px;
+     border-radius: 14px;
+     background: #ffffff;
+     box-shadow: 0px 0px 8px 8px #c0bebe;
+     font-family: Arial, Helvetica, sans-serif;
+     transition: all 0.7s;
+ }
+
+ .card:hover{
+    transform: translateY(-12px);
+ }
+
+ .price {
+     color: rgb(219, 41, 41);
+     text-decoration: line-through;
+ }
+
+ .info {
+     margin: 5px;
+     padding: 10px;
+ }
+
+ .image {
+     margin: 12px;
+     object-fit: cover;
+ }
+
+ /* page 3 section end */
+
+
+
+ /* page 4 section start */
+ .plate {
+     background-color: #FCECE9;
+ }
+
+ .plate .platekoo {
+     text-align: center;
+     padding: 50px 70px;
+ }
+
+ .plate h3 {
+     font-size: 32px;
+     color: #DD4A2A;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .plate p {
+     font-size: 17px;
+     color: rgb(61, 61, 61);
+     padding: 30px;
+     padding-left: 60px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .plate a {
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     color: white;
+     background-color: #DD4A2A;
+     padding: 10px 80px;
+     border-radius: 20px;
+ }
+
+ /* page 4 section end */
+
+
+
+ /* page 5 section start */
+ .partner {
+     padding:30px 70px;
+ }
+
+ .partner .container {
+     text-align: center;
+ }
+
+ .partner p {
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+
+ .partner h1 {
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: lighter;
+     font-size: 32px;
+ }
+
+ .markspartner img{
+    margin-right: 100px;
+    border-radius: 20px;
+ }
+
+ /* page 5 section end */
+
+
+
+ /* page 6 section start */
+ .plate2 {
+    background-color: #E9ECF3;
+}
+
+.plate2 .plate2ko{
+    text-align: center;
+    padding:50px 70px;
+    padding-left: 120px;
+}
+
+.plate2 h3 {
+    font-size: 32px;
+    color: #264788;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.plate2 p {
+    font-size: 17px;
+    color: (61, 61, 61);
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plate2 a {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #264788;
+    padding: 10px 56px;
+    border-radius: 20px;
+}
+ /* page 6 section end */
+
+ 
+
+ /* bottom section start */
+ .connn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .bottomho{
+    padding: 60px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+ }
+
+ .bottomho a{
+    text-decoration: none;
+ }
+
+ .bottomho1 img{
+    padding-left: 80px;
+ }
+
+ .bottomho1 a{
+    color: black;
+    text-decoration: none;
+ }
+
+ .bottomho2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .bottomho2 a{
+    color: black;
+ }
+
+ .bottomho3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .bottomho4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+
+ .conicon{
+    display: flex;
+    gap: 8px;
+ }
+
+ .conicon a{
+    font-size: 20px;
+ }
+
+
+ .lastt-container{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 30px;
+ }
+
+ /* bottom section end */
